@@ -1,1 +1,92 @@
+body {
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
 
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 10px;
+}
+
+.navbar-brand h1 { /* company name */
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+/* END HEADER*/
+
+/* MAIN BODY */
+
+
+#main-content{
+	margin-top:30px;
+	color:black;
+
+}
+#menu-heading h1 {
+  font-family: 'Lora', serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#menu-tiles{
+	width: 100%;
+	margin-top:30px;
+}
+
+.container-fluid .row
+{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#chicken-menu {
+	background-color: gray;
+	height: 1000px;
+}
+#chicken-menu:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#chicken-header{
+	font-weight: bold;
+	font-style: italic;
+	font-size:1.5em;
+	text-shadow: 1px 1px 1px #222;
+}
+
+/*END MAIN BODY*/
